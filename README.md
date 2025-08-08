@@ -8,7 +8,7 @@ The program accepts user-input G-Code lines, extracts 2D coordinates, stores the
 
 It’s designed to process linear move commands and provide clear output for CNC toolpath analysis.
 
-The interpreter prompts users to enter G-Code lines (e.g., G01 X0 Y0) interactively, stopping when the user types done.
+The interpreter prompts users to enter G-Code lines (e.g., G01 X0 Y0) interactively, stopping when the user types 'done'.
 
 It supports commands G01 to G05, treating them as linear moves. Each line is parsed to extract X and Y coordinates, which are stored in a matrix as [x, y] lists. 
 
